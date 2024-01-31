@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 4);
+    
+}
+
+.logo-mercado{
+    width: 10em;
+}
+.lupa-buscador{
+    width: 1.5em;
+    border: none;
+
+}
+.pulicidad-mercado{
+    width: 25em;
+}
+.formulario{
+    width: 25em;
+    height: 2em;
+}
+.btn-formulario{
+    border: none;
+    background-color: transparent
+    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+li{
+    margin-left: 1em;
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+.contenedor-cards{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 30px;
+
+    & .card{
+        width: 13em;
+        margin: 0 1em 1em 1em ;
+        -webkit-box-shadow: 2px 2px 33px -1px rgba(0,0,0,0.86); 
+        box-shadow: 2px 2px 33px -1px rgba(0,0,0,0.86);
+        & .card-titulo{
+            font-size:12px;
+            margin: .5em 0 .5em 0;
+            text-align: center;
+            text-decoration: underline;
+
+        }
+        & img{
+            width: 3em;
+            margin-left: 3em;
+        }
+        & .card-text{
+            font-size: 12px;
+            text-align: center;
+            color: black;
+            text-decoration: none;
+            margin: .5em 0 1em 1em;
+        }
+        & .btn {
+            background-color: rgba(231, 228, 228, 0.63);
+            font-size:12px;
+            width: 9em;
+            color: rgb(113, 113, 179);
+            height: 4em;
+            text-transform: capitalize;
+            vertical-align: baseline;
+        }
+        & .btn:hover{
+            color:  rgb(33, 33, 180);;
+        }
+    }
+}
+
+.ofertas{
+    & .oferta-dia{
+        background-color: aqua;
+        width: 30em;
+    }
+}
+
+
+
+
